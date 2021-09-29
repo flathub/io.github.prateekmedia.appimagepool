@@ -37,4 +37,4 @@ modules:
           type: json
           url: https://api.github.com/repos/prateekmedia/appimagepool/releases
           version-query: .[0] | .tag_name
-          url-query: .[0] | .assets | select(.name=="appimagepool-x86_64.tar.gz") | .url
+          url-query: .[0] | .assets | select(.name=="appimagepool-x86_64.tar.gz") | .browser_download_url
