@@ -1,7 +1,7 @@
 app-id: io.github.prateekmedia.appimagepool
-runtime: org.freedesktop.Platform
-runtime-version: "21.08"
-sdk: org.freedesktop.Sdk
+runtime: org.gnome.Platform
+runtime-version: "41"
+sdk: org.gnome.Sdk
 rename-icon: appimagepool
 rename-appdata-file: appimagepool.appdata.xml
 rename-desktop-file: appimagepool.desktop
