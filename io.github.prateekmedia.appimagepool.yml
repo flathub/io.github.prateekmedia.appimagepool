@@ -1,6 +1,6 @@
 app-id: io.github.prateekmedia.appimagepool
 runtime: org.gnome.Platform
-runtime-version: "41"
+runtime-version: '41'
 sdk: org.gnome.Sdk
 rename-icon: appimagepool
 rename-appdata-file: appimagepool.appdata.xml
