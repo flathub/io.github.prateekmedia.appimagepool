@@ -30,9 +30,9 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/prateekmedia/appimagepool/releases/download/4.0.0/appimagepool-x86_64.tar.gz
+        url: https://github.com/prateekmedia/appimagepool/releases/download/4.4.0/appimagepool-x86_64.tar.gz
         dest: appimagepool
-        sha256: cb7205555db7312f246ae4e7abec573bd86abf8073b1d7a81b3292e369ab59fb
+        sha256: ef01cd325986edd71cf0333d41fb7ac7541a62139661d486e90b298803d1cfc9
         x-checker-data:
           type: json
           url: https://api.github.com/repos/prateekmedia/appimagepool/releases/latest
