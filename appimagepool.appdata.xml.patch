@@ -1,0 +1,36 @@
+--- a/appimagepool/usr/share/metainfo/appimagepool.appdata.xml	2024-10-23 18:22:14.445264151 -0500
++++ b/appimagepool/usr/share/metainfo/appimagepool.appdata.xml	2024-10-23 18:29:44.769280188 -0500
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <component type="desktop-application">
+-	<id>appimagepool</id>
++	<id>io.github.prateekmedia.appimagepool</id>
+ 	<name>AppImage Pool</name>
+ 	<summary>A simple, modern AppImageHub Client</summary>
+ 	<metadata_license>CC0-1.0</metadata_license>
+@@ -24,14 +24,20 @@
+ 		</ul>
+ 	</description>
+ 	<screenshots>
+-		<screenshot>
+-			<image type="source">
++		<screenshot type="default">
++			<image>
+ 				https://github.com/prateekmedia/appimagepool/blob/5.1.0/assets/screenshot/home.jpg?raw=true</image>
+-			<image type="source">
++		</screenshot>
++		<screenshot>
++			<image>
+ 				https://github.com/prateekmedia/appimagepool/blob/5.1.0/assets/screenshot/category.jpg?raw=true</image>
+-			<image type="source">
++		</screenshot>
++		<screenshot>
++			<image>
+ 				https://github.com/prateekmedia/appimagepool/blob/5.1.0/assets/screenshot/app.jpg?raw=true</image>
+-			<image type="source">
++		</screenshot>
++		<screenshot>
++			<image>
+ 				https://github.com/prateekmedia/appimagepool/blob/5.1.0/assets/screenshot/search.jpg?raw=true</image>
+ 		</screenshot>
+ 	</screenshots>
