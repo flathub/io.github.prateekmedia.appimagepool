@@ -1,6 +1,6 @@
 app-id: io.github.prateekmedia.appimagepool
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 rename-icon: appimagepool
 rename-appdata-file: appimagepool.appdata.xml
@@ -25,7 +25,8 @@ modules:
     build-commands:
       - cp -R appimagepool/usr/bin/ /app/appimagepool
       - cp -R appimagepool/usr/share/ /app/share
-      - sed -i 's/<id>appimagepool/<id>io.github.prateekmedia.appimagepool/' /app/share/metainfo/appimagepool.appdata.xml
+      - mv /app/share/icons/hicolor/128x128 /app/share/icons/hicolor/scalable
+      - mv /app/share/metainfo /app/share/appdata
       - mkdir -p /app/bin/
       - ln -s /app/appimagepool/appimagepool /app/bin/appimagepool
     sources:
@@ -41,3 +42,5 @@ modules:
           version-query: .tag_name
           url-query: .assets[] | select(.name=="appimagepool-" + $version + "-x86_64.tar.gz")
             | .browser_download_url
+      - type: patch
+        path: appimagepool.appdata.xml.patch
