@@ -1,6 +1,6 @@
 app-id: io.github.prateekmedia.appimagepool
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 rename-icon: appimagepool
 rename-appdata-file: appimagepool.appdata.xml
@@ -15,6 +15,7 @@ finish-args:
   - --share=network
   - --device=dri
   - --filesystem=~/Applications:create
+  - --filesystem=xdg-download
   - --filesystem=~/.local/share/applications:create
   - --filesystem=~/.local/share/icons:create
   - --talk-name=org.freedesktop.Flatpak
