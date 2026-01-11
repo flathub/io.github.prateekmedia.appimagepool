@@ -15,6 +15,7 @@ finish-args:
   - --share=network
   - --device=dri
   - --filesystem=~/Applications:create
+  - --filesystem=xdg-download
   - --filesystem=~/.local/share/applications:create
   - --filesystem=~/.local/share/icons:create
   - --talk-name=org.freedesktop.Flatpak
